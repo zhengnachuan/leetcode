@@ -11,21 +11,9 @@ import java.util.PriorityQueue;
 public class Main {
     public static void main(String[] args) {
 
-        List<Integer> list = new ArrayList<>();
-        list.add(100);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-
-        PriorityQueue<Integer> pq = new PriorityQueue<>(list);
+        int a = 2 ^ 1 - 1;
+        int c = 2 ^ 1;
+        int b = 2 ^ 2 - 1;
     }
 
 }
