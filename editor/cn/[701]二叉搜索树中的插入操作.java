@@ -57,26 +57,36 @@ public class InsertIntoABinarySearchTree {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public TreeNode insertIntoBST(TreeNode root, int val) {
 
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode() {}
+     * TreeNode(int val) { this.val = val; }
+     * TreeNode(int val, TreeNode left, TreeNode right) {
+     * this.val = val;
+     * this.left = left;
+     * this.right = right;
+     * }
+     * }
+     */
+    class Solution {
+        public TreeNode insertIntoBST(TreeNode root, int val) {
+
+            if (root == null) {
+                return new TreeNode(val);
+            }
+            if (val > root.val) {
+                root.right = this.insertIntoBST(root.right, val);
+            } else {
+                root.left = this.insertIntoBST(root.left, val);
+            }
+            return root;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
