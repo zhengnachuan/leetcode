@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -11,9 +12,8 @@ import java.util.PriorityQueue;
 public class Main {
     public static void main(String[] args) {
 
-        int a = 2 ^ 1 - 1;
-        int c = 2 ^ 1;
-        int b = 2 ^ 2 - 1;
-    }
+        int[] nums = new int[]{1, -3, 5};
 
-}
+        Arrays.sort(nums, (Comparator<Integer>) Comparator.comparingInt((Integer a) -> Math.abs(a)));
+
+    }
