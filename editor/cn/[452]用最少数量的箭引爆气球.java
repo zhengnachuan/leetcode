@@ -53,6 +53,9 @@
 
 package leetcode.editor.cn;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 //Java：用最少数量的箭引爆气球
 public class MinimumNumberOfArrowsToBurstBalloons {
     public static void main(String[] args) {
@@ -61,11 +64,21 @@ public class MinimumNumberOfArrowsToBurstBalloons {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int findMinArrowShots(int[][] points) {
-
+    class Solution {
+        public int findMinArrowShots(int[][] points) {
+            Arrays.sort(points, Comparator.comparingInt(a -> a[1]));
+            int res = 1;
+            int end = points[0][1];
+            for (int i = 1; i < points.length; i++) {
+                int start = points[i][0];
+                if (start > end) {
+                    res++;
+                    end = points[i][1];
+                }
+            }
+            return res;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

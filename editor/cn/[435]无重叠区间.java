@@ -46,6 +46,9 @@
 
 package leetcode.editor.cn;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 //Java：无重叠区间
 public class NonOverlappingIntervals {
     public static void main(String[] args) {
@@ -54,11 +57,21 @@ public class NonOverlappingIntervals {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int eraseOverlapIntervals(int[][] intervals) {
-
+    class Solution {
+        public int eraseOverlapIntervals(int[][] intervals) {
+            Arrays.sort(intervals, Comparator.comparingInt(a -> a[1]));
+            int res = 1;
+            int end = intervals[0][1];
+            for (int i = 1; i < intervals.length; i++) {
+                int start = intervals[i][0];
+                if (start >= end) {
+                    res++;
+                    end = intervals[i][1];
+                }
+            }
+            return intervals.length - res;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

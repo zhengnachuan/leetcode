@@ -4,33 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/editor/cn/[1005]K 次取反后最大化的数组和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[122]买卖股票的最佳时机 II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[134]加油站.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[135]分发糖果.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[376]摆动序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[406]根据身高重建队列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[455]分发饼干.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[45]跳跃游戏 II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[53]最大子数组和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[55]跳跃游戏.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[860]柠檬水找零.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[1005]K 次取反后最大化的数组和.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[122]买卖股票的最佳时机 II.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[134]加油站.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[135]分发糖果.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[376]摆动序列.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[406]根据身高重建队列.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[455]分发饼干.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[45]跳跃游戏 II.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[53]最大子数组和.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[55]跳跃游戏.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[860]柠檬水找零.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="贪心">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/[435]无重叠区间.java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/[435]无重叠区间.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/[452]用最少数量的箭引爆气球.java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/[452]用最少数量的箭引爆气球.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/[56]合并区间.java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/[56]合并区间.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/[763]划分字母区间.java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/[763]划分字母区间.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[435]无重叠区间.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[435]无重叠区间.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[452]用最少数量的箭引爆气球.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[452]用最少数量的箭引爆气球.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[763]划分字母区间.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[763]划分字母区间.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +82,7 @@
       <workItem from="1661091201107" duration="38000" />
       <workItem from="1661091242024" duration="88000" />
       <workItem from="1661091353986" duration="3781000" />
+      <workItem from="1661868526829" duration="4013000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1661091892716</created>
@@ -115,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661096511681</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="贪心">
+      <created>1661682516259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661682516259</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,9 +123,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="up" />
     <MESSAGE value="回溯" />
-    <option name="LAST_COMMIT_MESSAGE" value="回溯" />
+    <MESSAGE value="贪心" />
+    <option name="LAST_COMMIT_MESSAGE" value="贪心" />
   </component>
 </project>
