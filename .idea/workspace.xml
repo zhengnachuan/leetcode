@@ -4,19 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="dp">
-      <change afterPath="$PROJECT_DIR$/editor/cn/[121]买卖股票的最佳时机.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[123]买卖股票的最佳时机 III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[188]买卖股票的最佳时机 IV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[309]最佳买卖股票时机含冷冻期.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[121]买卖股票的最佳时机.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[123]买卖股票的最佳时机 III.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[188]买卖股票的最佳时机 IV.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[309]最佳买卖股票时机含冷冻期.md" afterDir="false" />
+    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="stock">
+      <change afterPath="$PROJECT_DIR$/editor/cn/[1035]不相交的线.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[1143]最长公共子序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[115]不同的子序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[300]最长递增子序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[392]判断子序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[516]最长回文子序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[583]两个字符串的删除操作.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[647]回文子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[674]最长连续递增序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[718]最长重复子数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[72]编辑距离.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[1035]不相交的线.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[1143]最长公共子序列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[115]不同的子序列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[300]最长递增子序列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[392]判断子序列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[516]最长回文子序列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[583]两个字符串的删除操作.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[647]回文子串.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[674]最长连续递增序列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[718]最长重复子数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[72]编辑距离.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/submission/[300]最长递增子序列215256289.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[122]买卖股票的最佳时机 II.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[122]买卖股票的最佳时机 II.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[714]买卖股票的最佳时机含手续费.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[714]买卖股票的最佳时机含手续费.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[53]最大子数组和.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[53]最大子数组和.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +102,7 @@
       <workItem from="1661091353986" duration="3781000" />
       <workItem from="1661868526829" duration="7938000" />
       <workItem from="1662212876524" duration="6670000" />
-      <workItem from="1662299261804" duration="15764000" />
+      <workItem from="1662299261804" duration="25342000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1661091892716</created>
@@ -167,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662688787310</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="stock">
+      <created>1662966816254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662966816254</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +214,7 @@
     <MESSAGE value="贪心" />
     <MESSAGE value="背包" />
     <MESSAGE value="dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp" />
+    <MESSAGE value="stock" />
+    <option name="LAST_COMMIT_MESSAGE" value="stock" />
   </component>
 </project>
