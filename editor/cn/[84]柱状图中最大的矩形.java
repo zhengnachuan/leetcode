@@ -48,11 +48,39 @@ public class LargestRectangleInHistogram {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int largestRectangleArea(int[] heights) {
+    class Solution {
+        // dp
+        public int largestRectangleArea(int[] heights) {
+
+            int[] lMin = new int[heights.length];
+            int[] rMax = new int[heights.length];
+            // 记录左边第一个小于该柱子的下标
+            lMin[0] = -1;
+            for (int i = 1; i < heights.length; i++) {
+                int t = i - 1;
+                while (t >= 0 && heights[t] >= heights[i]) {
+                    t = lMin[t];
+                }
+                lMin[i] = t;
+            }
+            // 记录每个柱子 右边第一个小于该柱子的下标
+            rMax[heights.length - 1] = heights.length;
+            for (int i = heights.length - 2; i >= 0; i--) {
+                int t = i + 1;
+                while (t < heights.length && heights[t] >= heights[i]) {
+                    t = rMax[t];
+                }
+                rMax[i] = t;
+            }
+            int res = 0;
+            for (int i = 0; i < heights.length; i++) {
+                int sum = heights[i] * (rMax[i] - lMin[i] - 1);
+                res = Math.max(sum, res);
+            }
+            return res;
+        }
 
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

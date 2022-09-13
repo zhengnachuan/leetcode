@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="dp">
-      <change afterPath="$PROJECT_DIR$/editor/cn/[42]接雨水.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[496]下一个更大元素 I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[503]下一个更大元素 II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[739]每日温度.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[84]柱状图中最大的矩形.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[42]接雨水.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[496]下一个更大元素 I.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[503]下一个更大元素 II.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[739]每日温度.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[84]柱状图中最大的矩形.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/submission/[496]下一个更大元素 I174321152.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/submission/[739]每日温度174253758.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/[42]接雨水.java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/[42]接雨水.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/[84]柱状图中最大的矩形.java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/[84]柱状图中最大的矩形.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +79,7 @@
       <workItem from="1661091353986" duration="3781000" />
       <workItem from="1661868526829" duration="7938000" />
       <workItem from="1662212876524" duration="6670000" />
-      <workItem from="1662299261804" duration="29928000" />
+      <workItem from="1662299261804" duration="33985000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1661091892716</created>
@@ -183,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662977855325</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="stack">
+      <created>1662995957053</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662995957053</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +206,7 @@
     <MESSAGE value="背包" />
     <MESSAGE value="stock" />
     <MESSAGE value="dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp" />
+    <MESSAGE value="stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack" />
   </component>
 </project>

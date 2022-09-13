@@ -1,0 +1,30 @@
+class Solution {
+    public int trap(int[] height) {
+        int n = height.length;
+        if (n == 0) {
+            return 0;
+        }
+        int left = 0, right = n - 1;
+        int res = 0;
+
+        int lMax = height[0];
+        int rMax = height[n - 1];
+
+        while (left <= right) {
+            lMax = Math.max(lMax, height[left]);
+            rMax = Math.max(rMax, height[right]);
+
+            // res += min(lMax, rMax) - height[i]
+            if (lMax < rMax) {
+                res += lMax - height[left];
+                left++;
+            } else {
+                res += rMax - height[right];
+                right--;
+            }
+        }
+        return res;
+    }
+}
+//runtime:1 ms
+//memory:37.8 MB
