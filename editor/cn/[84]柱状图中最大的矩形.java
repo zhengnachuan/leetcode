@@ -40,6 +40,10 @@
 
 package leetcode.editor.cn;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Stack;
+
 //Java：柱状图中最大的矩形
 public class LargestRectangleInHistogram {
     public static void main(String[] args) {
@@ -50,7 +54,7 @@ public class LargestRectangleInHistogram {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         // dp
-        public int largestRectangleArea(int[] heights) {
+        public int largestRectangleArea1(int[] heights) {
 
             int[] lMin = new int[heights.length];
             int[] rMax = new int[heights.length];
@@ -77,6 +81,30 @@ public class LargestRectangleInHistogram {
                 int sum = heights[i] * (rMax[i] - lMin[i] - 1);
                 res = Math.max(sum, res);
             }
+            return res;
+        }
+
+        public int largestRectangleArea(int[] heights) {
+
+            // 数组扩容，在头和尾各加入一个元素
+            int[] newHeights = new int[heights.length + 2];
+            System.arraycopy(heights, 0, newHeights, 1, heights.length);
+
+            Stack<Integer> stack = new Stack<>();
+            stack.push(0);
+            int res = 0;
+
+            for (int i = 0; i < newHeights.length; i++) {
+                // 对栈中柱体来说，栈中的下一个柱体就是其「左边第一个小于自身的柱体」；
+                // 若当前柱体 i 的高度小于栈顶柱体的高度，说明 i 是栈顶柱体的「右边第一个小于栈顶柱体的柱体」。
+                // 因此以栈顶柱体为高的矩形的左右宽度边界就确定了，可以计算面积🌶️ ～
+                while (!stack.isEmpty() && newHeights[i] < newHeights[stack.peek()]) {
+                    int h = newHeights[stack.pop()];
+                    res = Math.max(res, (i - stack.peek() - 1) * h);
+                }
+                stack.push(i);
+            }
+
             return res;
         }
 
