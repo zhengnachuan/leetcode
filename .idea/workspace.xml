@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="array">
-      <change afterPath="$PROJECT_DIR$/editor/cn/[141]环形链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[142]环形链表 II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[143]重排链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[160]相交链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[234]回文链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[24]两两交换链表中的节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/[面试题 02.07]链表相交.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[141]环形链表.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[142]环形链表 II.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[143]重排链表.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[160]相交链表.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[234]回文链表.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[24]两两交换链表中的节点.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[面试题 02.07]链表相交.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/submission/[234]回文链表173898098.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/doc/submission/[234]回文链表173898615.txt" afterDir="false" />
+    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="link">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -95,7 +79,7 @@
       <workItem from="1661868526829" duration="7938000" />
       <workItem from="1662212876524" duration="6670000" />
       <workItem from="1662299261804" duration="34107000" />
-      <workItem from="1663083854462" duration="9304000" />
+      <workItem from="1663083854462" duration="11019000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1661091892716</created>
@@ -216,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663424542164</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="link">
+      <created>1663426752602</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663426752602</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +236,7 @@
     <MESSAGE value="dp" />
     <MESSAGE value="stack" />
     <MESSAGE value="array" />
-    <option name="LAST_COMMIT_MESSAGE" value="array" />
+    <MESSAGE value="link" />
+    <option name="LAST_COMMIT_MESSAGE" value="link" />
   </component>
 </project>
