@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="link">
+    <list default="true" id="07a077d4-54d0-4457-ab43-ffa88bfd6238" name="Changes" comment="hash">
+      <change afterPath="$PROJECT_DIR$/editor/cn/[1221]分割平衡字符串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[129]求根节点到叶节点数字之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[1382]将二叉搜索树变平衡.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[649]Dota2 参议院.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/[925]长按键入.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[1221]分割平衡字符串.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[129]求根节点到叶节点数字之和.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[1382]将二叉搜索树变平衡.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[649]Dota2 参议院.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/doc/content/[925]长按键入.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/[52]N皇后 II.java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/[52]N皇后 II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[100]相同的树.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[100]相同的树.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[108]将有序数组转换为二叉搜索树.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[108]将有序数组转换为二叉搜索树.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[116]填充每个节点的下一个右侧节点指针.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[116]填充每个节点的下一个右侧节点指针.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[51]N 皇后.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[51]N 皇后.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[52]N皇后 II.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[52]N皇后 II.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[844]比较含退格的字符串.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[844]比较含退格的字符串.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/doc/content/[98]验证二叉搜索树.md" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/doc/content/[98]验证二叉搜索树.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +97,7 @@
       <workItem from="1661868526829" duration="7938000" />
       <workItem from="1662212876524" duration="6670000" />
       <workItem from="1662299261804" duration="34107000" />
-      <workItem from="1663083854462" duration="11019000" />
+      <workItem from="1663083854462" duration="16735000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1661091892716</created>
@@ -207,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663426752602</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="hash">
+      <created>1663468023890</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663468023890</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +262,7 @@
     <MESSAGE value="stack" />
     <MESSAGE value="array" />
     <MESSAGE value="link" />
-    <option name="LAST_COMMIT_MESSAGE" value="link" />
+    <MESSAGE value="hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="hash" />
   </component>
 </project>
